@@ -4,6 +4,8 @@ import { userData } from "../data";
 import "./About.css";
 
 const About = () => {
+  const profileImage = "/src/image/image.png";
+
   return (
     <section id="about" className="about-section">
       <div className="about-container">
@@ -14,9 +16,12 @@ const About = () => {
           viewport={{ once: true }}
           className="about-image-wrapper"
         >
-          {/* Placeholder for user image if they have one, efficiently handled with CSS */}
-          <div className="about-img-placeholder">
-            <span>{userData.name.charAt(0)}</span>
+          <div className="about-image">
+            <img
+              className="about-img"
+              src={profileImage}
+              alt={`${userData.name} portrait`}
+            />
           </div>
         </motion.div>
 
