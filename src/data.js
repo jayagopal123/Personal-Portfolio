@@ -34,18 +34,11 @@ export const skills = [
 
 export const projects = [
   {
-    title: "LeetCode Helper",
-    desc: "A Chrome extension designed to enhance the LeetCode problem-solving experience.",
-    tech: ["Chrome Ext", "JavaScript"],
-    link: "https://github.com/jayagopal123/leetcode-helper-extension",
-    repo: "https://github.com/jayagopal123/leetcode-helper-extension",
-  },
-  {
-    title: "MindCare SIH",
-    desc: "A mental health support platform built for the Smart India Hackathon.",
-    tech: ["MERN Stack", "HealthTech"],
-    link: "https://github.com/jayagopal123/mindcare-sih",
-    repo: "https://github.com/jayagopal123/mindcare-sih",
+    title: "MessOS",
+    desc: "End-to-end mess management platform with admin controls, menus, and student workflows.",
+    tech: ["MERN Stack", "TypeScript"],
+    link: "https://github.com/jayagopal123/MessOS",
+    repo: "https://github.com/jayagopal123/MessOS",
   },
   {
     title: "AI Motion Tracking",
@@ -55,18 +48,32 @@ export const projects = [
     repo: "https://github.com/jayagopal123/ai-motion-tracking-system",
   },
   {
-    title: "Food Reel System",
-    desc: "Interactive content discovery platform focused on culinary experiences.",
-    tech: ["Full Stack", "React"],
+    title: "Reels System",
+    desc: "Short-form food discovery reels with creator uploads and personalized feed flow.",
+    tech: ["MERN Stack", "Media"],
     link: "https://github.com/jayagopal123/food-reel-system",
     repo: "https://github.com/jayagopal123/food-reel-system",
   },
   {
-    title: "GSAP Landing Page",
-    desc: "Award-worthy landing page demonstrating complex animations and premium UI.",
-    tech: ["React", "GSAP"],
-    link: "https://github.com/jayagopal123/gsap-react-landing-page",
-    repo: "https://github.com/jayagopal123/gsap-react-landing-page",
+    title: "LeetCode Helper",
+    desc: "A Chrome extension designed to enhance the LeetCode problem-solving experience.",
+    tech: ["Chrome Ext", "JavaScript"],
+    link: "https://github.com/jayagopal123/leetcode-helper-extension",
+    repo: "https://github.com/jayagopal123/leetcode-helper-extension",
+  },
+  {
+    title: "Smart Route Tracker",
+    desc: "Route tracking system with location intelligence and live status updates.",
+    tech: ["Node.js", "Express"],
+    link: "https://github.com/jayagopal123/smart-route-tracker",
+    repo: "https://github.com/jayagopal123/smart-route-tracker",
+  },
+  {
+    title: "MindCare SIH",
+    desc: "A mental health support platform built for the Smart India Hackathon.",
+    tech: ["MERN Stack", "HealthTech"],
+    link: "https://github.com/jayagopal123/mindcare-sih",
+    repo: "https://github.com/jayagopal123/mindcare-sih",
   },
 ];
 
