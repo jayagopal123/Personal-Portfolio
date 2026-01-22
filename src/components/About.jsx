@@ -4,7 +4,7 @@ import { userData } from "../data";
 import "./About.css";
 
 const About = () => {
-  const profileImage = "/src/image/image.png";
+  const profileImage = "/image.png";
 
   return (
     <section id="about" className="about-section">
